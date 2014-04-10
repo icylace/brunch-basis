@@ -13,7 +13,6 @@ exports.config =
         before: [
           'build/base/scripts/wrapper-begin.ls'
         ]
-
         after: [
           'build/site/scripts/site.ls'
           'build/base/scripts/wrapper-end.ls'
@@ -24,8 +23,8 @@ exports.config =
         'main.css':   /^build(\/|\\)site/
         'editor.css': /^build(\/|\\)editor/
 
-    templates:
-      joinTo: 'templates.js'
+    # templates:
+    #   joinTo: 'templates.js'
 
   modules:
     definition: false
@@ -38,9 +37,8 @@ exports.config =
       processImport: false
 
     jaded:
-      patches: 'jade-php'
-      staticPatterns:  /^build(\/|\\)site(\/|\\)(.+)\.static\.jade$/
-
+      patches:        'jade-php'
+      staticPatterns: /^build(\/|\\)site(\/|\\)(.+)\.static\.jade$/
       extensions:
         static: 'php'
         client: 'html'
