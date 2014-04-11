@@ -13,11 +13,11 @@
     "type": "git",
     "url": ""
   },
+  "// dependencies -- jade-php": "0.1.*",
   "dependencies": {
     "clean-css-brunch": "1.7.*",
     "css-brunch": "1.7.*",
     "jade": "1.3.*",
-    "jade-php": "0.1.*",
     "jaded-brunch": "1.7.*",
     "javascript-brunch": "1.7.*",
     "jshint-brunch": "1.7.*",
