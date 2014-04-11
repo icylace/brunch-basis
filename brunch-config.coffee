@@ -37,11 +37,11 @@ exports.config =
       processImport: false
 
     jaded:
-      patches:        'jade-php'
+      # patches:        'jade-php'
       staticPatterns: /^build(\/|\\)site(\/|\\)(.+)\.static\.jade$/
-      extensions:
-        static: 'php'
-        client: 'html'
+      # extensions:
+      #   static: 'php'
+      #   client: 'html'
 
     stylus:
       imports: ['nib']
