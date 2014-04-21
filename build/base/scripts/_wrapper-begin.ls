@@ -1,1 +1,2 @@
-``(function ($) {``
+``(function (document, window) {``
+``'use strict';``

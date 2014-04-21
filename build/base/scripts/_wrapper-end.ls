@@ -1,1 +1,1 @@
-``})(window.jQuery)``
+``})(document, window)``

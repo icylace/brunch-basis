@@ -8,7 +8,7 @@
     "Your Name name <your@email.com>"
   ],
   "dependencies": {
-    "jquery": "~2.1.*",
-    "lodash": "~2.4.*"
+    "jquery": "2.1.*",
+    "lodash": "2.4.*"
   }
 }

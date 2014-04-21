@@ -1,3 +1,25 @@
+//
+// Font sizing with rems.
+// http://zsitro.com/stylus-mixin-for-rem-font-sizing/
+//
+// Usage:
+//
+//     p
+//       font-size 1.2rem
+//
+// yields
+//
+//     p {
+//       font-size: 12px;
+//       font-size: 1.2rem;
+//     }
+//
+font-size(_size)
+  if unit(_size) == 'rem'
+    font-size (_size * 10)px
+  font-size _size
+
+
 // -----------------------------------------------------------------------------
 //  Font Stacks
 //  http://cssfontstack.com/

@@ -43,25 +43,15 @@
 //
 
 
-@import '../../base/styles/_basis'
-@import '_setup'
-@import '_colors'
-@import '_fonts'
-@import '_general'
-@import '_layout'
-@import '_tables'
-@import '_forms'
-@import '_text'
-@import '_lists'
-@import '_links'
-@import '_others'
-@import '_vendor-related'
-@import '_pages'
-@import '_shame'
+@require '../../base/styles/_basis'
+@require '_setup'
+@require '**'
+// @require '../components/**'
 
 
+//
 // Components
-
+//
 // accordions
 // buttons
 // breadcrumbs
@@ -69,18 +59,21 @@
 // dialogs
 // dividers
 // footers
-// forms
 // grid
-// headers
 // icons
-// links
-// lists
 // media
 // menus
 // messages
 // panels
 // search
-// tables
 // toggles
 // tiles
 // tooltips
+//
+
+
+// -----------------------------------------------------------------------------
+//  Shame Styles
+//  http://csswizardry.com/2013/04/shame-css/
+// -----------------------------------------------------------------------------
+
